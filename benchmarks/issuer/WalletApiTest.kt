@@ -457,7 +457,20 @@ internal class WalletApiEncryptionOptionalKeyAttestationsNotRequiredTest : BaseW
             assertEquals(1, issuedCredentials.size)
             assertNull(response.transactionId)
         }
-
+    /*
+     * Initial benchmark implementation
+     *
+     * This benchmark was developed during the initial performance evaluation phase
+     * to measure credential issuance latency through the Wallet API.
+     *
+     * It represents the first measurement approach used in this study.
+     * During the subsequent analysis, the benchmark methodology was refined and
+     * the dedicated IssueCredentialTest benchmark was introduced to isolate
+     * credential issuance performance more clearly.
+     *
+     * This implementation is retained as part of the development history and
+     * methodological evolution of the benchmark.
+     */
     @Test
     fun `issuance latency benchmark`() =
         runTest {
