@@ -1,0 +1,1170 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2026 European Commission
+  ~
+  ~ Licensed under the EUPL, Version 1.2 or - as soon they will be approved by the European
+  ~ Commission - subsequent versions of the EUPL (the "Licence"); You may not use this work
+  ~ except in compliance with the Licence.
+  ~
+  ~ You may obtain a copy of the Licence at:
+  ~ https://joinup.ec.europa.eu/software/page/eupl
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software distributed under
+  ~ the Licence is distributed on an "AS IS" basis, WITHOUT WARRANTIES OR CONDITIONS OF
+  ~ ANY KIND, either express or implied. See the Licence for the specific language
+  ~ governing permissions and limitations under the Licence.
+  -->
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="settings_screen_option_language">Dil</string>
+
+    <string name="app_name">Türkçe EUDI</string>
+
+
+    <string name="generic_error_message">Hay aksi! Bir şeyler yanlış gitti</string>
+
+    <!-- region Generic -->
+
+
+
+    <string name="generic_error_description">
+        Sorun devam ederse lütfen müşteri desteği ile iletişime geçin
+    </string>
+
+    <string name="generic_error_button_retry">TEKRAR DENE</string>
+
+    <string name="generic_network_error_message">
+        İnternet bağlantınız yok
+    </string>
+
+    <string name="generic_error_retry">Lütfen tekrar deneyin</string>
+
+    <string name="generic_cancel">İptal</string>
+
+    <string name="generic_cancel_capitalized">İPTAL</string>
+
+    <string name="generic_continue">Devam et</string>
+
+    <string name="generic_continue_capitalized">DEVAM ET</string>
+
+    <string name="generic_enable_capitalized">ETKİNLEŞTİR</string>
+
+    <string name="generic_success">Başarılı</string>
+
+    <string name="generic_close">Kapat</string>
+
+    <string name="generic_ok">Tamam</string>
+
+    <string name="generic_dash">-</string>
+
+    <string name="generic_default_relying_party_name">Doğrulama Tarafı</string>
+
+    <string name="generic_default_issuer_name">Belge Sağlayıcı</string>
+
+    <string name="generic_view_details">Detayları görüntüle</string>
+
+    <string name="generic_deferred_success_text">İşlem devam ediyor!</string>
+
+    <string name="generic_bottom_sheet_delete_title">
+        Belge kaldırılsın mı?
+    </string>
+
+    <string name="generic_bottom_sheet_delete_subtitle">
+        Bu belge cüzdanınızdan kaldırılacak ve bazı hizmetlere erişiminizi etkileyebilir.
+    </string>
+
+    <string name="generic_bottom_sheet_delete_primary_button_text">
+        Kaldır
+    </string>
+
+    <string name="generic_bottom_sheet_delete_secondary_button_text">
+        İptal
+    </string>
+
+    <string name="generic_scan_qr">QR tara</string>
+
+    <string name="generic_or">VEYA</string>
+
+    <string name="generic_filters_apply">Uygula</string>
+
+    <string name="generic_filters_reset">Tümünü sıfırla</string>
+
+    <string name="generic_filters_title">Filtrele</string>
+
+    <string name="generic_filters_sort_by">Sırala</string>
+
+    <string name="generic_search">Ara</string>
+
+    <!--endregion-->
+
+    <!-- region Content Description -->
+
+    <string name="content_description_image_or_placeholder_icon">Resim veya varsayılan ikon</string>
+    <string name="content_description_user_signature_icon">Kullanıcı imzası</string>
+    <string name="content_description_qr_code_icon">QR kod</string>
+    <string name="content_description_more_vert_icon">Daha fazla öğe</string>
+    <string name="content_description_arrow_back_icon">Geri dön</string>
+    <string name="content_description_close_icon">Kapat</string>
+    <string name="content_description_warning_icon">Uyarı</string>
+    <string name="content_description_error_icon">Hata</string>
+    <string name="content_description_error_filled_icon">Hata</string>
+    <string name="content_description_delete_icon">Sil</string>
+    <string name="content_description_touch_id_icon">Dokunmatik kimlik</string>
+    <string name="content_description_qr_icon">QR</string>
+    <string name="content_description_qr_scanner_icon">QR tarayıcı</string>
+    <string name="content_description_nfc_icon">NFC</string>
+    <string name="content_description_user_icon">Kullanıcı</string>
+    <string name="content_description_id_icon">Kimlik</string>
+    <string name="content_description_id_stroke_icon">Kimlik çizgisi</string>
+    <string name="content_description_logo_icon">Logo ikonu</string>
+    <string name="content_description_logo_icon_and_text">Logo ikonu ve yazısı</string>
+    <string name="content_description_arrow_up_icon">Yukarı ok</string>
+    <string name="content_description_arrow_down_icon">Aşağı ok</string>
+    <string name="content_description_visibility_icon">Göster</string>
+    <string name="content_description_visibility_off_icon">Gizle</string>
+    <string name="content_description_add_icon">Ekle</string>
+    <string name="content_description_edit_icon">Düzenle</string>
+    <string name="content_description_verified_icon">Doğrulandı</string>
+    <string name="content_description_message_icon">Mesaj</string>
+    <string name="content_description_success_icon">Başarılı</string>
+    <string name="content_description_clock_timer_icon">Zamanlayıcı</string>
+    <string name="content_description_arrow_right_icon">Sağ ok</string>
+    <string name="content_description_open_new_icon">Yeni aç</string>
+    <string name="content_description_handle_bar_icon">Tutma çubuğu</string>
+    <string name="content_description_search_icon">Ara</string>
+
+    <string name="content_description_present_document_same_device_icon">Belgeyi yüz yüze sun</string>
+    <string name="content_description_present_document_cross_device_icon">Belgeyi çevrimiçi sun</string>
+    <string name="content_description_add_document_from_list_icon">Listeden belge ekle</string>
+    <string name="content_description_add_document_from_qr_icon">QR ile belge ekle</string>
+    <string name="content_description_authenticate_in_person_icon">Yüz yüze kimlik doğrula</string>
+    <string name="content_description_authenticate_online_icon">Çevrimiçi kimlik doğrula</string>
+    <string name="content_description_sign_document_from_device_icon">Cihazdan belge imzala</string>
+    <string name="content_description_sign_document_from_qr_icon">QR ile belge imzala</string>
+
+    <string name="content_description_bookmark_icon">Yer imi</string>
+    <string name="content_description_bookmark_filled_icon">Eklenmiş yer imi</string>
+    <string name="content_description_certified_icon">Onaylı</string>
+    <string name="content_description_documents_icon">Belgeler</string>
+    <string name="content_description_download_icon">İndir</string>
+    <string name="content_description_filters_icon">Filtreler</string>
+    <string name="content_description_home_icon">Ana sayfa</string>
+    <string name="content_description_in_progress_icon">Devam ediyor</string>
+    <string name="content_description_notifications_icon">Bildirimler</string>
+    <string name="content_description_transactions_icon">Geçmiş</string>
+    <string name="content_description_wallet_activated_icon">Cüzdan etkinleştirildi</string>
+    <string name="content_description_wallet_secured_icon">Cüzdan güvenli hale getirildi</string>
+    <string name="content_description_info_icon">Bilgi</string>
+    <string name="content_description_issuer_icon">Belge sağlayıcı</string>
+    <string name="content_description_issuer_logo_icon">Belge sağlayıcı logosu</string>
+    <string name="content_description_menu_icon">Menü</string>
+    <string name="content_description_signature_icon">İmza</string>
+    <string name="content_description_authenticate_icon">Kimlik doğrulama kartları</string>
+    <string name="content_description_change_pin_icon">PIN değiştir</string>
+    <string name="content_description_check_icon">Kontrol et</string>
+    <string name="content_description_open_in_browser_icon">Tarayıcıda aç</string>
+    <string name="content_description_date_range_icon">Tarih aralığı seç</string>
+    <string name="content_description_settings_icon">Ayarlar</string>
+    <string name="content_description_batch_issuance_counter_icon">Toplu oluşturma sayacı</string>
+
+    <!--endregion-->
+
+    <!-- region Quick Pin -->
+
+    <string name="quick_pin_invalid_error">Geçersiz PIN</string>
+
+    <string name="quick_pin_non_match">PIN kodları eşleşmiyor</string>
+
+    <string name="quick_pin_locked_out">
+        PIN kodunu arka arkaya %1$d kez yanlış girdiniz.\nLütfen tekrar denemeden önce %2$s bekleyin.
+    </string>
+
+    <string name="quick_pin_create_title">
+        Cüzdanınıza hoş geldiniz
+    </string>
+
+    <string name="quick_pin_create_subtitle">
+        Cüzdanınızı bir PIN kodu ile güvence altına alın ve Ulusal Sisteminiz ile bağlantı kurun.
+    </string>
+
+    <string name="quick_pin_create_enter_pin_input_label">
+        PIN girin
+    </string>
+
+    <string name="quick_pin_create_reenter_pin_input_label">
+            PIN kodunu onaylayın
+
+    </string>
+
+
+    <string name="quick_pin_change_title">
+        PIN değiştir
+    </string>
+
+    <string name="quick_pin_change_validate_current_subtitle">
+        Mevcut PIN kodunuzu girin
+    </string>
+
+    <string name="quick_pin_change_enter_new_subtitle">
+        Gelecek girişler için yeni bir PIN seçin
+    </string>
+
+    <string name="quick_pin_change_reenter_new_subtitle">
+        Yeni PIN kodunu tekrar girin
+    </string>
+
+
+    <string name="quick_pin_create_success_text">
+        Cüzdanınız güvence altına alındı!
+    </string>
+
+    <string name="quick_pin_create_success_description">
+        Cüzdanınızı etkinleştirmek için Ulusal Sisteme bağlanarak Dijital Kimliğinizi ekleyin.
+    </string>
+
+    <string name="quick_pin_create_success_no_activation_description">
+        Cüzdanınız kullanıma hazır.
+    </string>
+
+    <string name="quick_pin_create_success_btn">
+        Dijital Kimliğimi ekle
+    </string>
+
+    <string name="quick_pin_create_success_no_activation_btn">
+        ANA SAYFAYA GİT
+    </string>
+
+    <string name="quick_pin_change_success_text">
+        @string/generic_success
+    </string>
+
+    <string name="quick_pin_change_success_description">
+        PIN kodunu başarıyla değiştirdiniz
+    </string>
+
+    <string name="quick_pin_change_success_btn">
+        ANA SAYFAYA DÖN
+    </string>
+
+
+    <string name="quick_pin_bottom_sheet_cancel_title">
+        PIN değiştirme işlemi iptal edilsin mi?
+    </string>
+
+    <string name="quick_pin_bottom_sheet_cancel_subtitle">
+        İptal işlemi PIN değiştirilmeden sizi ana sayfaya yönlendirecektir.
+    </string>
+
+    <string name="quick_pin_bottom_sheet_cancel_primary_button_text">
+        @string/generic_continue_capitalized
+    </string>
+
+    <string name="quick_pin_bottom_sheet_cancel_secondary_button_text">
+        @string/generic_cancel_capitalized
+    </string>
+
+    <!--endregion-->
+
+
+
+    <!-- region Request Screen -->
+
+    <string name="request_header_description">
+        Aşağıdaki işlem izninizi ve kimlik doğrulamanızı gerektiriyor.
+    </string>
+
+    <string name="request_header_main_text">
+        VERİ PAYLAŞIM İSTEĞİ
+    </string>
+
+    <string name="request_relying_party_default_name">
+        @string/generic_default_relying_party_name
+    </string>
+
+    <string name="request_relying_party_description">
+        aşağıdaki bilgileri talep ediyor
+    </string>
+
+    <string name="request_warning_text">
+        Verilerinizi paylaşmadan önce lütfen dikkatlice kontrol edin.
+    </string>
+
+    <string name="request_collapsed_supporting_text">
+        @string/generic_view_details
+    </string>
+
+    <string name="request_no_data">
+        Talep edilen belge EUDI Cüzdanınızda mevcut değil.
+        Daha fazla bilgi için lütfen yetkili belge sağlayıcı ile iletişime geçin.
+    </string>
+
+    <string name="request_sticky_button_text">
+        Paylaş
+    </string>
+
+    <string name="request_bottom_sheet_warning_title">
+        Uyarı
+    </string>
+
+    <string name="request_bottom_sheet_warning_subtitle">
+        Bazı verileri paylaşmamayı seçmek, istenen belgenin oluşturulmasında başarısızlığa neden olabilir.
+    </string>
+
+    <string name="request_gender_male">Erkek</string>
+
+    <string name="request_gender_female">Kadın</string>
+
+    <string name="request_gender_not_known">
+        Bilinmiyor
+    </string>
+
+    <string name="request_gender_not_applicable">
+        Uygulanamaz
+    </string>
+
+    <!--endregion-->
+
+    <!-- region Loading Screen -->
+
+    <string name="loading_header_description">Lütfen bekleyin…</string>
+
+    <string name="loading_biometry_biometrics_enabled_description">
+        İşlemi onaylamak için biyometrik doğrulamanızı kullanın.
+    </string>
+
+    <string name="loading_biometry_biometrics_not_enabled_description">
+        İşlemi onaylamak için kimliğinizi doğrulamanız gerekiyor.
+    </string>
+
+    <!--endregion-->
+
+
+    <!-- region Dashboard -->
+
+    <string name="dashboard_document_has_not_expired">
+        Geçerlilik tarihi:\ %1$s
+    </string>
+
+    <string name="dashboard_document_has_expired">Süresi doldu</string>
+
+    <string name="dashboard_document_deferred_pending">Beklemede</string>
+
+    <string name="dashboard_document_deferred_failed">
+        Belge oluşturma başarısız
+    </string>
+
+    <string name="dashboard_document_revoked">İptal edildi</string>
+
+    <string name="dashboard_document_credentials_info_text">%d/%d</string>
+
+
+    <string name="dashboard_bottom_sheet_bluetooth_title">
+        Bluetooth etkinleştirilsin mi?
+    </string>
+
+    <string name="dashboard_bottom_sheet_bluetooth_subtitle">
+        Kimliğinizi yüz yüze veya çevrimiçi doğrulamak için Bluetooth özelliğini etkinleştirin.
+    </string>
+
+    <string name="dashboard_bottom_sheet_bluetooth_primary_button_text">
+        @string/generic_enable_capitalized
+    </string>
+
+    <string name="dashboard_bottom_sheet_bluetooth_secondary_button_text">
+        @string/generic_cancel_capitalized
+    </string>
+
+
+    <string name="dashboard_bottom_sheet_deferred_document_pressed_title">
+        @string/generic_bottom_sheet_delete_title
+    </string>
+
+    <string name="dashboard_bottom_sheet_deferred_document_pressed_subtitle">
+        @string/generic_bottom_sheet_delete_subtitle
+    </string>
+
+    <string name="dashboard_bottom_sheet_deferred_document_pressed_primary_button_text">
+        @string/generic_bottom_sheet_delete_primary_button_text
+    </string>
+
+    <string name="dashboard_bottom_sheet_deferred_document_pressed_secondary_button_text">
+        @string/generic_bottom_sheet_delete_secondary_button_text
+    </string>
+
+
+    <string name="dashboard_bottom_sheet_deferred_documents_ready_title">
+        Belgeler oluşturuldu
+    </string>
+
+    <string name="dashboard_bottom_sheet_deferred_documents_ready_subtitle">
+        Yeni belgeler cüzdanınıza eklendi.
+    </string>
+
+
+    <string name="dashboard_bottom_sheet_revoked_document_dialog_title">
+        İptal edilen belgeler
+    </string>
+
+    <string name="dashboard_bottom_sheet_revoked_document_dialog_subtitle">
+        Aşağıdaki belgeler iptal edildi.
+    </string>
+
+    <!--endregion-->
+
+
+    <string name="dashboard_side_menu_title">Cüzdanım</string>
+
+    <string name="dashboard_side_menu_option_change_pin">
+        PIN değiştir
+    </string>
+
+    <string name="dashboard_side_menu_option_settings">
+        Ayarlar
+    </string>
+
+
+
+    <!-- region Settings Screen -->
+
+    <string name="settings_screen_title">Ayarlar</string>
+
+    <string name="settings_screen_option_biometrics_authentication">
+        Biyometrik doğrulama kullan
+    </string>
+
+    <string name="settings_screen_option_show_batch_issuance_counter">
+        Toplu belge oluşturma sayacı
+    </string>
+
+    <string name="settings_screen_option_retrieve_logs">
+        Kayıtları al
+    </string>
+
+    <string name="settings_screen_option_changelog">
+        Değişiklik geçmişi
+    </string>
+
+    <string name="settings_intent_chooser_logs_share_title">
+        Kayıtları paylaş
+    </string>
+
+    <!--endregion-->
+
+
+
+    <!-- region Home Screen -->
+
+    <string name="home_screen_title">Ana sayfa</string>
+
+    <string name="home_screen_welcome">Hoş geldiniz</string>
+
+    <string name="home_screen_welcome_user_message">
+        Cüzdanınıza hoş geldiniz, %1$s
+    </string>
+
+    <string name="home_screen_authentication_card_title">
+        Kimliğinizi güvenli bir şekilde doğrulayın ve dijital kimlik bilgilerinizi paylaşın.
+    </string>
+
+    <string name="home_screen_sign_card_title">
+        Cihazınızdan bir dosya seçerek dijital belgeleri cüzdanınızla elektronik olarak imzalayın.
+    </string>
+
+    <string name="home_screen_authenticate">
+        Kimlik doğrula
+    </string>
+
+    <string name="home_screen_authenticate_description">
+        Verilerinizi yüz yüze veya çevrimiçi olarak paylaşarak kimliğinizi doğrulayın.
+    </string>
+
+    <string name="home_screen_sign">
+        İmzala
+    </string>
+
+    <string name="home_screen_learn_more">
+        Daha fazla bilgi
+    </string>
+
+    <string name="home_screen_authenticate_option_in_person">
+        Yüz yüze
+    </string>
+
+    <string name="home_screen_add_document_option_online">
+        Çevrimiçi
+    </string>
+
+
+    <string name="home_screen_sign_document">
+        Belge imzala
+    </string>
+
+    <string name="home_screen_sign_document_description">
+        Cihazınızdan bir dosya seçerek veya QR kod tarayarak belgeyi dijital olarak imzalayın.
+    </string>
+
+    <string name="home_screen_sign_document_option_from_device">
+        Cihazdan
+    </string>
+
+    <string name="home_screen_sign_document_option_scan_qr">
+        QR tara
+    </string>
+
+    <!--endregion-->
+
+    <!-- region Home Screen Learn More Popups content -->
+
+    <string name="home_screen_authenticate_learn_more_inner_title">
+        Belgeleri güvenli şekilde imzalayın
+    </string>
+
+    <string name="home_screen_authenticate_learn_more_description">
+        Belgelerinizi yalnızca cüzdanınızı kullanarak imzalayın. Yasal geçerliliğe sahip elektronik imza oluşturmak artık daha hızlı ve kolay olacak.
+    </string>
+
+    <string name="home_screen_sign_learn_more_inner_title">
+        Çevrimiçi hizmetlere erişin
+    </string>
+
+    <string name="home_screen_sign_learn_more_description">
+        Gizliliğinizi koruyarak birçok kamu ve özel çevrimiçi hizmette kimliğinizi doğrulayın. Sayısız parola kullanmadan birkaç dokunuşla kim olduğunuzu kanıtlayın.
+    </string>
+
+    <!--endregion-->
+
+
+
+    <!-- region Documents Screen -->
+
+    <string name="documents_screen_title">
+        Belgeler
+    </string>
+
+    <string name="documents_screen_search_label">
+        @string/generic_search
+    </string>
+
+    <string name="documents_screen_search_no_results">
+        Aramanızla eşleşen belge bulunamadı. Arama ifadenizi veya filtreleri değiştirmeyi deneyin.
+    </string>
+
+    <string name="documents_screen_add_document_title">
+        Belge ekle
+    </string>
+
+    <string name="documents_screen_add_document_description">
+        Listeden seçerek veya verilen QR kodunu tarayarak cüzdanınıza belge ekleyin.
+    </string>
+
+    <string name="documents_screen_add_document_fab">
+        Belge ekle
+    </string>
+
+    <string name="documents_screen_add_document_option_list">
+        Listeden
+    </string>
+
+    <string name="documents_screen_add_document_option_qr">
+        @string/generic_scan_qr
+    </string>
+
+    <string name="documents_screen_add_document_option_or">
+        @string/generic_or
+    </string>
+
+
+    <string name="documents_screen_filters_title">
+        @string/generic_filters_title
+    </string>
+
+    <string name="documents_screen_filters_sort_by">
+        @string/generic_filters_sort_by
+    </string>
+
+    <string name="documents_screen_filters_sort_default">
+        Varsayılan
+    </string>
+
+    <string name="documents_screen_filters_filter_by_issuer">
+        Belge sağlayıcı
+    </string>
+
+    <string name="documents_screen_filters_filter_by_category">
+        Kategori
+    </string>
+
+    <string name="documents_screen_filters_filter_by_state">
+        Durum
+    </string>
+
+    <string name="documents_screen_filters_filter_by_state_revoked">
+        İptal edildi
+    </string>
+
+    <string name="documents_screen_filters_filter_by_state_valid">
+        Geçerli
+    </string>
+
+    <string name="documents_screen_filters_filter_by_state_expired">
+        Süresi doldu
+    </string>
+
+    <string name="documents_screen_filters_filter_by_expiry_period">
+        Geçerlilik süresi
+    </string>
+
+    <string name="documents_screen_filters_filter_by_expiry_period_1">
+        Sonraki 7 gün
+    </string>
+
+    <string name="documents_screen_filters_filter_by_expiry_period_2">
+        Sonraki 30 gün
+    </string>
+
+    <string name="documents_screen_filters_filter_by_expiry_period_3">
+        30 günden sonrası
+    </string>
+
+    <string name="documents_screen_filters_filter_by_expiry_period_4">
+        Bugünden önce (süresi dolmuş)
+    </string>
+
+    <string name="documents_screen_filters_apply">
+        @string/generic_filters_apply
+    </string>
+
+    <string name="documents_screen_filters_reset">
+        @string/generic_filters_reset
+    </string>
+
+    <string name="documents_screen_filters_unknown_issuer">
+        Bilinmeyen
+    </string>
+
+    <!--endregion-->
+
+
+
+    <!-- region Transactions Screen -->
+
+    <string name="transactions_screen_title">
+        Geçmiş
+    </string>
+
+    <string name="transactions_screen_search_label">
+        @string/generic_search
+    </string>
+
+    <string name="transactions_screen_search_no_results">
+        İşlem bulunamadı. Arama ifadenizi veya filtreleri değiştirmeyi deneyin.
+    </string>
+
+    <string name="transactions_screen_0_minutes_ago_message">
+        Şimdi
+    </string>
+
+    <plurals name="transactions_screen_some_minutes_ago_message">
+        <item quantity="one">%d dakika önce</item>
+        <item quantity="other">%d dakika önce</item>
+    </plurals>
+
+    <string name="transactions_screen_text_field_date_pattern">
+        gg/aa/yyyy
+    </string>
+
+    <!--endregion-->
+
+
+
+    <!-- region Transactions Screen, Filter labels -->
+
+    <string name="transactions_screen_filters_title">
+        @string/generic_filters_title
+    </string>
+
+    <string name="transactions_screen_filters_sort_by">
+        @string/generic_filters_sort_by
+    </string>
+
+    <string name="transactions_screen_filters_sort_transaction_date">
+        İşlem tarihi
+    </string>
+
+    <string name="transactions_screen_filter_by_date_period">
+        Tarih
+    </string>
+
+    <string name="transactions_screen_filter_by_status">
+        Durum
+    </string>
+
+    <string name="transactions_screen_filters_filter_by_relying_party">
+        Doğrulama tarafı
+    </string>
+
+    <string name="transactions_screen_filters_filter_by_transaction_type">
+        İşlem türü
+    </string>
+
+    <string name="transactions_screen_filters_filter_by_transaction_type_presentation">
+        Sunum
+    </string>
+
+    <string name="transactions_screen_filters_filter_by_transaction_type_issuance">
+        Belge oluşturma
+    </string>
+
+    <string name="transactions_screen_filters_filter_by_transaction_type_signing">
+        İmzalama
+    </string>
+
+    <string name="transactions_screen_filters_date_from">
+        Başlangıç tarihi
+    </string>
+
+    <string name="transactions_screen_filters_date_to">
+        Bitiş tarihi
+    </string>
+
+    <string name="transactions_filter_item_status_completed">
+        Tamamlandı
+    </string>
+
+    <string name="transactions_filter_item_status_failed">
+        Başarısız
+    </string>
+
+    <string name="transactions_filter_item_no_relying_party_transactions">
+        Doğrulama tarafı yok
+    </string>
+
+    <string name="transactions_screen_filters_apply">
+        @string/generic_filters_apply
+    </string>
+
+    <string name="transactions_screen_filters_reset">
+        @string/generic_filters_reset
+    </string>
+
+    <!--endregion-->
+
+
+
+    <!-- region Document Sign -->
+
+    <string name="document_sign_title">
+        Belge imzala
+    </string>
+
+    <string name="document_sign_subtitle">
+        Elektronik olarak imzalamak için cihazınızdan bir belge seçin.
+    </string>
+
+    <string name="document_sign_select_document">
+        Belge seç
+    </string>
+
+    <!--endregion-->
+
+
+
+    <!-- region Qr Scan -->
+
+    <string name="qr_scan_permission_not_granted">
+        Kamera izni verilmedi\nUygulama ayarlarını açın
+    </string>
+
+    <string name="qr_scan_informative_text_presentation_flow">
+        QR kodu taramakta sorun mu yaşıyorsunuz?\nLütfen alternatif yöntemi deneyin
+    </string>
+
+    <string name="qr_scan_informative_text_issuance_flow">
+        QR kodu taramakta sorun mu yaşıyorsunuz?\nLütfen alternatif yöntemi deneyin
+    </string>
+
+    <string name="qr_scan_informative_text_signature_flow">
+        QR kodu taramakta sorun mu yaşıyorsunuz?\nLütfen alternatif yöntemi deneyin
+    </string>
+
+    <!--endregion-->
+
+    <!-- region Document Details -->
+
+    <string name="document_details_boolean_item_true_readable_value">evet</string>
+
+    <string name="document_details_boolean_item_false_readable_value">hayır</string>
+
+
+    <string name="document_details_bottom_sheet_delete_title">
+        @string/generic_bottom_sheet_delete_title
+    </string>
+
+    <string name="document_details_bottom_sheet_delete_subtitle">
+        @string/generic_bottom_sheet_delete_subtitle
+    </string>
+
+    <string name="document_details_bottom_sheet_delete_primary_button_text">
+        @string/generic_bottom_sheet_delete_primary_button_text
+    </string>
+
+    <string name="document_details_bottom_sheet_delete_secondary_button_text">
+        @string/generic_bottom_sheet_delete_secondary_button_text
+    </string>
+
+
+    <string name="document_details_toolbar_action_reissue">
+        Yeniden oluştur
+    </string>
+
+    <string name="document_details_toolbar_action_remove">
+        Kaldır
+    </string>
+
+
+    <string name="document_details_document_credentials_info_text">
+        Kalan kullanım %d/%d
+    </string>
+
+    <string name="document_details_main_section_text">
+        BELGE VERİLERİ
+    </string>
+
+    <string name="document_details_issuer_section_text">
+        BELGE SAĞLAYICI DETAYLARI
+    </string>
+
+    <string name="document_details_issuer_card_expires_on_text">
+        Geçerlilik tarihi:\ %1$s
+    </string>
+
+    <string name="document_details_issuer_card_revoked_text">
+        Belge iptal edildi
+    </string>
+
+    <string name="document_details_issuer_card_issued_on_text">
+        Oluşturulma tarihi:\ %1$s
+    </string>
+
+    <string name="document_details_issuer_card_issued_message_text">
+        Bu belgeyi istediğiniz zaman yeniden oluşturabilirsiniz.
+    </string>
+
+    <string name="document_details_issuer_card_issued_action_btn_text">
+        Belgeyi yeniden oluştur
+    </string>
+
+    <string name="document_details_issuer_card_revoked_message_text">
+        Bu belge doğrulama için kullanılamaz.
+    </string>
+
+    <string name="document_details_secondary_button_text">
+        Cüzdandan kaldır
+    </string>
+
+
+    <string name="document_details_bottom_sheet_bookmark_info_title">
+        Favorilere kaydedildi
+    </string>
+
+    <string name="document_details_bottom_sheet_bookmark_info_message">
+        Belge başarıyla favoriler listenize eklendi.
+    </string>
+
+    <string name="document_details_bottom_sheet_bookmark_removed_info_title">
+        Favorilerden kaldırıldı
+    </string>
+
+    <string name="document_details_bottom_sheet_bookmark_removed_info_message">
+        Belge başarıyla favoriler listenizden kaldırıldı.
+    </string>
+
+
+    <string name="document_details_bottom_sheet_badge_title">
+        Güvenilir Doğrulama Tarafı
+    </string>
+
+    <string name="document_details_bottom_sheet_badge_subtitle">
+        Bir doğrulama tarafı güvenlik, veri koruma ve uygun veri işleme kriterlerini karşıladığında güvenilir kabul edilir.
+    </string>
+
+    <!--endregion-->
+
+
+
+    <!-- region Transaction Details -->
+
+    <string name="transaction_details_screen_title">
+        İşlem bilgisi
+    </string>
+
+    <string name="transaction_details_screen_card_date_label">
+        Tarih
+    </string>
+
+    <string name="transaction_details_request_deletion_message">
+        Bu işlemle bağlantılı kişisel verilerin işlenmesini durdurmayı talep edebilirsiniz. Bu durum hizmetlere erişiminizi etkileyebilir.
+    </string>
+
+    <string name="transaction_details_report_transaction_message">
+        Bu doğrulama tarafının kişisel verilerinizi hukuka aykırı şekilde istediğini düşünüyorsanız işlemi yetkililere bildirebilirsiniz.
+    </string>
+
+    <string name="transaction_details_request_deletion_button">
+        Veri silme talep et
+    </string>
+
+    <string name="transaction_details_report_transaction_button">
+        Şüpheli işlemi bildir
+    </string>
+
+    <string name="transaction_details_data_shared_section_title">
+        PAYLAŞILAN VERİ
+    </string>
+
+    <string name="transaction_details_data_signed_section_title">
+        İMZALANAN VERİ
+    </string>
+
+    <string name="transaction_details_collapsed_supporting_text">
+        @string/generic_view_details
+    </string>
+
+    <!--endregion-->
+
+
+
+    <!-- region Proximity QR -->
+
+    <string name="proximity_qr_title">
+        Kimliğimi doğrula
+    </string>
+
+    <string name="proximity_qr_subtitle">
+        Kimliğinizi doğrulamak için bu QR kodu yakındaki doğrulama tarafına gösterin.
+    </string>
+
+    <string name="proximity_qr_use_nfc">
+        NFC ile bağlan
+    </string>
+
+    <string name="proximity_qr_hold_near_reader">
+        Telefonunuzu okuyucuya yaklaştırın.
+    </string>
+
+
+    <!--endregion-->
+
+    <!-- region Presentation Qr Scan -->
+
+    <string name="presentation_qr_scan_title">
+        Kimliğimi doğrula
+    </string>
+
+    <string name="presentation_qr_scan_subtitle">
+        Kimliğinizi doğrulamak için doğrulama tarafından sağlanan QR kodunu tarayın.
+    </string>
+
+    <!--endregion-->
+
+
+
+    <!-- region Signature Qr Scan -->
+
+    <string name="signature_qr_scan_title">
+        Belge imzala
+    </string>
+
+    <string name="signature_qr_scan_subtitle">
+        Bir belgeyi elektronik olarak imzalamak için QR kod tarayın.
+    </string>
+
+    <!--endregion-->
+
+
+
+    <!-- region Issuance Add Document Screen -->
+
+    <string name="issuance_add_document_title">
+        Listeden belge ekle
+    </string>
+
+    <string name="issuance_add_document_subtitle">
+        Cüzdanınıza eklemek için aşağıdaki listeden dijital bir belge seçin. Yetkili belge sağlayıcı tarafından verilen QR kodu tarayarak da belge ekleyebilirsiniz.
+    </string>
+
+    <string name="issuance_add_document_no_options">
+        Kullanılabilir belge yok
+    </string>
+
+    <string name="issuance_add_document_deferred_success_text">
+        @string/generic_deferred_success_text
+    </string>
+
+    <string name="issuance_add_document_deferred_success_description">
+        Belgeniz talep edildi. Cüzdanınıza eklendiğinde bilgilendirileceksiniz.
+    </string>
+
+    <string name="issuance_add_document_deferred_success_primary_button_text">
+        @string/generic_ok
+    </string>
+
+    <string name="issuance_add_document_pid_combined">
+        Birleştirilmiş PID
+    </string>
+
+    <!--endregion-->
+
+
+
+    <!-- region Issuance Success Screen -->
+
+    <string name="issuance_success_header_description">
+        Aşağıdaki belgeyi cüzdanınıza başarıyla eklediniz
+    </string>
+
+    <string name="issuance_success_header_description_when_error">
+        Belgeler başarıyla cüzdanınıza eklendi
+    </string>
+
+    <string name="issuance_success_header_issuer_default_name">
+        @string/generic_default_issuer_name
+    </string>
+
+    <!--endregion-->
+
+
+
+    <!-- region Issuance Qr Scan -->
+
+    <string name="issuance_qr_scan_title">
+        QR ile belge ekle
+    </string>
+
+    <string name="issuance_qr_scan_subtitle">
+        Dijital belgeyi cüzdanınıza eklemek için belge sağlayıcıdan alınan QR kodunu tarayın.
+    </string>
+
+    <!--endregion-->
+
+
+
+    <!-- region Issuance Document Offer -->
+
+    <string name="issuance_document_offer_primary_button_text_add">
+        Ekle
+    </string>
+
+    <string name="issuance_document_offer_deferred_success_text">
+        @string/generic_deferred_success_text
+    </string>
+
+    <string name="issuance_document_offer_deferred_success_description">
+        %1$s tarafından sağlanan belgeleriniz talep edildi. Belgeler cüzdanınıza eklendiğinde bilgilendirileceksiniz.
+    </string>
+
+    <string name="issuance_document_offer_deferred_success_primary_button_text">
+        @string/generic_ok
+    </string>
+
+    <string name="issuance_document_offer_error_missing_pid_text">
+        Cüzdan önce Ulusal Kimlik ile etkinleştirilmelidir
+    </string>
+
+    <string name="issuance_document_offer_error_invalid_txcode_format">
+        Geçersiz işlem kodu formatı. Uzunluk %1$d ile %2$d rakam arasında olmalı ve yalnızca sayısal karakter içermelidir.
+    </string>
+
+    <string name="issuance_document_offer_error_no_document">
+        Kimlik bilgisi teklifini alma ve işleme başarısız oldu
+    </string>
+
+
+    <string name="issuance_document_offer_description">
+        Aşağıdaki işlem izninizi ve kimlik doğrulamanızı gerektiriyor.
+    </string>
+
+    <string name="issuance_document_offer_header_main_text">
+        BELGE OLUŞTURMA İSTEĞİ
+    </string>
+
+    <string name="issuance_document_offer_relying_party_default_name">
+        @string/generic_default_issuer_name
+    </string>
+
+    <string name="issuance_document_offer_relying_party_description">
+        aşağıdaki belgeyi eklemek istiyor
+    </string>
+
+    <!--endregion-->
+
+
+
+    <!-- region Issuance Document Offer Code -->
+
+    <string name="issuance_code_title">
+        %1$s doğrulama gerektiriyor
+    </string>
+
+    <string name="issuance_code_caption">
+        Size gönderilen %1$d haneli işlem kodunu girin.
+    </string>
+
+    <!--endregion-->
+
+
+
+    <!-- region Issuance Document Errors -->
+
+    <string name="issuance_generic_error">
+        Belgeleriniz oluşturulurken bir hata oluştu
+    </string>
+
+    <!--endregion-->
+
+
+
+    <!-- region Document Categories -->
+
+    <string name="document_category_government">KAMU</string>
+
+    <string name="document_category_travel">SEYAHAT</string>
+
+    <string name="document_category_finance">FİNANS</string>
+
+    <string name="document_category_education">EĞİTİM</string>
+
+    <string name="document_category_health">SAĞLIK</string>
+
+    <string name="document_category_social_security">
+        SOSYAL GÜVENLİK
+    </string>
+
+    <string name="document_category_retail">PERAKENDE</string>
+
+    <string name="document_category_other">DİĞER</string>
+
+    <!--endregion-->
+
+
+
+    <!-- region Transaction Categories -->
+
+    <string name="transaction_category_today">
+        BUGÜN
+    </string>
+
+    <string name="transaction_category_this_week">
+        BU HAFTA
+    </string>
+
+    <string name="transaction_category_month_year">
+        AY
+    </string>
+
+    <!--endregion-->
+
+
+</resources>
+
+

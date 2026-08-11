@@ -170,6 +170,20 @@ For example:
 | Hungarian | `Nyelv` |
 | Arabic | `اللغة` |
 
+### Benchmark Translation Resources
+
+Copies of the added translation resources are included in this benchmark repository under:
+
+`localization/translations/`
+
+The directory contains:
+
+- [`turkish-strings.xml`](translations/turkish-strings.xml) — Turkish translations
+- [`hungarian-strings.xml`](translations/hungarian-strings.xml) — Hungarian translations
+- [`arabic-strings.xml`](translations/arabic-strings.xml) — Arabic translations
+
+The English resource file is not duplicated in the benchmark repository because it was already provided as the application's default resource. The benchmark focuses on the three additional localization resources introduced during the project work.
+These files document the additional localization resources added to the EUDI Wallet application.
 ---
 
 ## Implementation Files
@@ -178,15 +192,15 @@ The main implementation is distributed across the following files:
 
 | File | Purpose |
 |---|---|
-| `SettingsInteractor.kt` | Adds the Language option to Settings |
-| `SettingsViewModel.kt` | Handles the Language menu selection |
-| `SettingsScreen.kt` | Displays the language selection dialog and applies the selected language |
-| `values/strings.xml` | English resources |
+| `SettingsInteractor.kt` | Adds the Language option to the Settings screen |
+| `SettingsViewModel.kt` | Handles the Language menu selection and triggers the language dialog |
+| `SettingsScreen.kt` | Displays the language selection dialog and handles language selection |
+| `values/strings.xml` | Default English resources |
 | `values-tr/strings.xml` | Turkish resources |
 | `values-hu/strings.xml` | Hungarian resources |
 | `values-ar/strings.xml` | Arabic resources |
 
----
+Copies of the added translation resources are also included in this benchmark repository under `localization/translations/`.
 ---
 
 ## Application Evidence

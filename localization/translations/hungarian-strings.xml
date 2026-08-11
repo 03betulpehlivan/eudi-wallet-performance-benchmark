@@ -1,0 +1,463 @@
+<!--
+  ~ Copyright (c) 2026 European Commission
+  ~
+  ~ Licensed under the EUPL, Version 1.2 or - as soon they will be approved by the European
+  ~ Commission - subsequent versions of the EUPL (the "Licence"); You may not use this work
+  ~ except in compliance with the Licence.
+  ~
+  ~ You may obtain a copy of the Licence at:
+  ~ https://joinup.ec.europa.eu/software/page/eupl
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software distributed under
+  ~ the Licence is distributed on an "AS IS" basis, WITHOUT WARRANTIES OR CONDITIONS OF
+  ~ ANY KIND, either express or implied. See the Licence for the specific language
+  ~ governing permissions and limitations under the Licence.
+  -->
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="settings_screen_option_language">Nyelv</string>
+    <string name="app_name">Turkish EUDI</string>
+
+    <!-- region Generic -->
+    <string name="generic_error_message">Hoppá! Valami hiba történt</string>
+    <string name="generic_error_description">Ha a probléma továbbra is fennáll, kérjük, lépjen kapcsolatba az ügyfélszolgálattal</string>
+    <string name="generic_error_button_retry">ÚJRAPRÓBÁLÁS</string>
+    <string name="generic_network_error_message">Nincs internetkapcsolata</string>
+    <string name="generic_error_retry">Kérjük, próbálja újra</string>
+    <string name="generic_cancel">Mégse</string>
+    <string name="generic_cancel_capitalized" tools:ignore="ButtonCase">MÉGSE</string>
+    <string name="generic_continue">Folytatás</string>
+    <string name="generic_continue_capitalized" tools:ignore="ButtonCase">FOLYTATÁS</string>
+    <string name="generic_enable_capitalized" tools:ignore="ButtonCase">ENGEDÉLYEZÉS</string>
+    <string name="generic_success">Siker</string>
+    <string name="generic_close">Bezárás</string>
+    <string name="generic_ok">OK</string>
+    <string name="generic_dash">-</string>
+    <string name="generic_default_relying_party_name">Ellenőrző fél</string>
+    <string name="generic_default_issuer_name">Kiállító</string>
+    <string name="generic_view_details">Részletek megtekintése</string>
+    <string name="generic_deferred_success_text">Folyamatban!</string>
+    <string name="generic_bottom_sheet_delete_title">Eltávolítja a dokumentumot?</string>
+    <string name="generic_bottom_sheet_delete_subtitle">Ez a dokumentum el lesz távolítva a tárcájából, és ez hatással lehet a szolgáltatások elérésére.</string>
+    <string name="generic_bottom_sheet_delete_primary_button_text">Eltávolítás</string>
+    <string name="generic_bottom_sheet_delete_secondary_button_text">Mégse</string>
+    <string name="generic_scan_qr">QR beolvasása</string>
+    <string name="generic_or">VAGY</string>
+    <string name="generic_filters_apply">Alkalmazás</string>
+    <string name="generic_filters_reset">Összes visszaállítása</string>
+    <string name="generic_filters_title">Szűrés</string>
+    <string name="generic_filters_sort_by">Rendezés</string>
+    <string name="generic_search">Keresés</string>
+    <!--endregion-->
+
+    <!-- region Content Description -->
+    <string name="content_description_image_or_placeholder_icon">Kép vagy helykitöltő ikon</string>
+    <string name="content_description_user_signature_icon">Felhasználói aláírás</string>
+    <string name="content_description_qr_code_icon">QR-kód</string>
+    <string name="content_description_more_vert_icon">További elemek</string>
+    <string name="content_description_arrow_back_icon">Vissza</string>
+    <string name="content_description_close_icon">Bezárás</string>
+    <string name="content_description_warning_icon">Figyelmeztetés</string>
+    <string name="content_description_error_icon">Hiba</string>
+    <string name="content_description_error_filled_icon">Hiba</string>
+    <string name="content_description_delete_icon">Törlés</string>
+    <string name="content_description_touch_id_icon">Ujjlenyomat</string>
+    <string name="content_description_qr_icon">QR</string>
+    <string name="content_description_qr_scanner_icon">QR szkenner</string>
+    <string name="content_description_nfc_icon">NFC</string>
+    <string name="content_description_user_icon">Felhasználó</string>
+    <string name="content_description_id_icon">Azonosító</string>
+    <string name="content_description_id_stroke_icon">Azonosító körvonal</string>
+    <string name="content_description_logo_icon">Logó ikon</string>
+    <string name="content_description_logo_icon_and_text">Logó ikon és szöveg</string>
+    <string name="content_description_arrow_up_icon">Nyíl felfelé</string>
+    <string name="content_description_arrow_down_icon">Nyíl lefelé</string>
+    <string name="content_description_visibility_icon">Megjelenítés</string>
+    <string name="content_description_visibility_off_icon">Elrejtés</string>
+    <string name="content_description_add_icon">Hozzáadás</string>
+    <string name="content_description_edit_icon">Szerkesztés</string>
+    <string name="content_description_verified_icon">Ellenőrzött</string>
+    <string name="content_description_message_icon">Üzenet</string>
+    <string name="content_description_success_icon">Siker</string>
+    <string name="content_description_clock_timer_icon">Időzítő</string>
+    <string name="content_description_arrow_right_icon">Nyíl jobbra</string>
+    <string name="content_description_open_new_icon">Megnyitás új ablakban</string>
+    <string name="content_description_handle_bar_icon">Fogantyú</string>
+    <string name="content_description_search_icon">Keresés</string>
+    <string name="content_description_present_document_same_device_icon">Dokumentum bemutatása személyesen</string>
+    <string name="content_description_present_document_cross_device_icon">Dokumentum bemutatása online</string>
+    <string name="content_description_add_document_from_list_icon">Dokumentum hozzáadása listából</string>
+    <string name="content_description_add_document_from_qr_icon">Dokumentum hozzáadása QR-ből</string>
+    <string name="content_description_authenticate_in_person_icon">Hitelesítés személyesen</string>
+    <string name="content_description_authenticate_online_icon">Hitelesítés online</string>
+    <string name="content_description_sign_document_from_device_icon">Dokumentum aláírása eszközről</string>
+    <string name="content_description_sign_document_from_qr_icon">Dokumentum aláírása QR-ből</string>
+
+    <string name="content_description_bookmark_icon">Könyvjelző</string>
+    <string name="content_description_bookmark_filled_icon">Kitöltött könyvjelző</string>
+    <string name="content_description_certified_icon">Tanúsított</string>
+    <string name="content_description_documents_icon">Dokumentumok</string>
+    <string name="content_description_download_icon">Letöltés</string>
+    <string name="content_description_filters_icon">Szűrők</string>
+    <string name="content_description_home_icon">Kezdőlap</string>
+    <string name="content_description_in_progress_icon">Folyamatban</string>
+    <string name="content_description_notifications_icon">Értesítések</string>
+    <string name="content_description_transactions_icon">Előzmények</string>
+    <string name="content_description_wallet_activated_icon">Tárca aktiválva</string>
+    <string name="content_description_wallet_secured_icon">Tárca biztonságos</string>
+    <string name="content_description_info_icon">Információ</string>
+    <string name="content_description_issuer_icon">Kiállító</string>
+    <string name="content_description_issuer_logo_icon">Kiállító logója</string>
+    <string name="content_description_menu_icon">Menü</string>
+    <string name="content_description_signature_icon">Aláírás</string>
+    <string name="content_description_authenticate_icon">Hitelesítési azonosítókártyák</string>
+    <string name="content_description_change_pin_icon">PIN módosítása</string>
+    <string name="content_description_check_icon">Ellenőrzés</string>
+    <string name="content_description_open_in_browser_icon">Megnyitás böngészőben</string>
+    <string name="content_description_date_range_icon">Szűrési dátumtartomány kiválasztása</string>
+    <string name="content_description_settings_icon">Beállítások</string>
+    <string name="content_description_batch_issuance_counter_icon">Tömeges kiállítási számláló</string>
+    <!--endregion-->
+
+    <!-- region Biometric prompt -->
+    <string name="biometric_prompt_title">Biometrikus hitelesítés</string>
+    <string name="biometric_prompt_subtitle">Hitelesítés biometrikus adataival</string>
+    <string name="biometric_login_title">Üdvözöljük újra</string>
+    <string name="biometric_login_biometrics_enabled_subtitle">Használja biometrikus adatait az Használja biometrikus adatait az Használja biometrikus adatait az Használja biometrikus adatait az EUDI Wallet eléréséhez. eléréséhez. eléréséhez. eléréséhez.</string>
+    <string name="biometric_login_biometrics_not_enabled_subtitle">Az Használja biometrikus adatait az Használja biometrikus adatait az Használja biometrikus adatait az EUDI Wallet eléréséhez. eléréséhez. eléréséhez. eléréséhez meg kell adnia PIN-kódját.</string>
+    <!--endregion-->
+
+    <!-- region Biometrics -->
+    <string name="biometric_no_hardware">Az eszköze nem támogatja a biometrikus hitelesítést</string>
+    <string name="biometric_unknown_error">Hiba történt a biometrikus hitelesítés inicializálásakor. Kérjük, próbálja újra</string>
+    <string name="biometric_default_mode_text_above_pin_field">PIN</string>
+    <!--endregion-->
+
+    <!-- region Document Success -->
+    <string name="document_success_header_description">Sikeresen megosztotta a következő információkat a következővel:</string>
+    <string name="document_success_header_description_when_error">Sikeresen megosztotta az információkat a következővel:</string>
+    <string name="document_success_relying_party_default_name">@string/generic_default_relying_party_name</string>
+    <string name="document_success_collapsed_supporting_text">@string/generic_view_details</string>
+    <string name="document_success_sticky_button_text">@string/generic_close</string>
+    <!--endregion-->
+
+    <!-- region Quick Pin -->
+    <string name="quick_pin_invalid_error">Érvénytelen PIN</string>
+    <string name="quick_pin_non_match">A PIN-kódok nem egyeznek</string>
+    <string name="quick_pin_locked_out">Egymás után %1$d alkalommal hibás PIN-kódot adott meg.\nKérjük, várjon %2$s-ot, mielőtt újra megpróbálná.</string>
+
+    <string name="quick_pin_create_title">Üdvözöljük a Tárcájában</string>
+    <string name="quick_pin_create_subtitle">Biztosítsa tárcáját PIN-kóddal, és csatlakozzon a Nemzeti Rendszerhez.</string>
+    <string name="quick_pin_create_enter_pin_input_label">Adjon meg egy PIN-kódot</string>
+    <string name="quick_pin_create_reenter_pin_input_label">PIN megerősítése</string>
+
+    <string name="quick_pin_change_title">PIN módosítása</string>
+    <string name="quick_pin_change_validate_current_subtitle">Adja meg jelenlegi PIN-kódját</string>
+    <string name="quick_pin_change_enter_new_subtitle">Válasszon PIN-kódot a jövőbeli bejelentkezésekhez</string>
+    <string name="quick_pin_change_reenter_new_subtitle">Adja meg újra az új PIN-kódot</string>
+
+    <string name="quick_pin_create_success_text">A tárcája biztonságban van!</string>
+    <string name="quick_pin_create_success_description">A tárca aktiválásához csatlakozzon a Nemzeti Rendszerhez, és adja hozzá digitális azonosítóját.</string>
+    <string name="quick_pin_create_success_no_activation_description">A tárcája használatra kész.</string>
+    <string name="quick_pin_create_success_btn">Digitális azonosítóm hozzáadása</string>
+    <string name="quick_pin_create_success_no_activation_btn">FŐOLDALRA</string>
+    <string name="quick_pin_change_success_text">@string/generic_success</string>
+    <string name="quick_pin_change_success_description">Sikeresen módosította a PIN-kódot</string>
+    <string name="quick_pin_change_success_btn">VISSZA A KEZDŐLAPRA</string>
+
+    <string name="quick_pin_bottom_sheet_cancel_title">Megszakítja a PIN módosítását?</string>
+    <string name="quick_pin_bottom_sheet_cancel_subtitle">A megszakítás visszairányítja a kezdőlapra a PIN módosítása nélkül</string>
+    <string name="quick_pin_bottom_sheet_cancel_primary_button_text">@string/generic_continue_capitalized</string>
+    <string name="quick_pin_bottom_sheet_cancel_secondary_button_text">@string/generic_cancel_capitalized</string>
+    <!--endregion-->
+
+    <!-- region Request Screen -->
+    <string name="request_header_description">A következő tranzakció az Ön engedélyét és hitelesítését igényli.</string>
+    <string name="request_header_main_text">ADATMEGOSZTÁSI KÉRELEM</string>
+    <string name="request_relying_party_default_name">@string/generic_default_relying_party_name</string>
+    <string name="request_relying_party_description">a következőket kéri</string>
+    <string name="request_warning_text">Kérjük, alaposan ellenőrizze, mielőtt megosztja adatait.</string>
+    <string name="request_collapsed_supporting_text">@string/generic_view_details</string>
+    <string name="request_no_data">A kért dokumentum nem érhető el az Használja biometrikus adatait az Használja biometrikus adatait az Használja biometrikus adatait az EUDI Wallet eléréséhez. eléréséhez. eléréséhez. tárcájában.
+        További információért kérjük, lépjen kapcsolatba a felhatalmazott kiállítóval.</string>
+    <string name="request_sticky_button_text">Megosztás</string>
+    <string name="request_bottom_sheet_warning_title">Figyelmeztetés</string>
+    <string name="request_bottom_sheet_warning_subtitle">Ha bizonyos adatok megosztását elutasítja, az a kért dokumentum kiállításának sikertelenségéhez vezethet.</string>
+    <string name="request_gender_male">Férfi</string>
+    <string name="request_gender_female">Nő</string>
+    <string name="request_gender_not_known">Ismeretlen</string>
+    <string name="request_gender_not_applicable">Nem alkalmazható</string>
+    <!--endregion-->
+
+    <!-- region Loading Screen -->
+    <string name="loading_header_description">Kérjük, várjon…</string>
+    <string name="loading_biometry_biometrics_enabled_description">Használja biometrikus adatait a tranzakció jóváhagyásához.</string>
+    <string name="loading_biometry_biometrics_not_enabled_description">A tranzakció jóváhagyásához igazolnia kell személyazonosságát.</string>
+    <!--endregion-->
+
+    <!-- region Dashboard -->
+    <string name="dashboard_document_has_not_expired">Érvényes eddig:\ %1$s</string>
+    <string name="dashboard_document_has_expired">Lejárt</string>
+    <string name="dashboard_document_deferred_pending">Függőben</string>
+    <string name="dashboard_document_deferred_failed">Kiállítás sikertelen</string>
+    <string name="dashboard_document_revoked">Visszavonva</string>
+    <string name="dashboard_document_credentials_info_text">%d/%d</string>
+
+    <string name="dashboard_bottom_sheet_bluetooth_title">Engedélyezi a Bluetooth-ot?</string>
+    <string name="dashboard_bottom_sheet_bluetooth_subtitle">Engedélyezze a Bluetooth-ot, hogy megoszthassa adatait a Hitelesítés személyesen vagy online opcióval</string>
+    <string name="dashboard_bottom_sheet_bluetooth_primary_button_text">@string/generic_enable_capitalized</string>
+    <string name="dashboard_bottom_sheet_bluetooth_secondary_button_text">@string/generic_cancel_capitalized</string>
+
+    <string name="dashboard_bottom_sheet_deferred_document_pressed_title">@string/generic_bottom_sheet_delete_title</string>
+    <string name="dashboard_bottom_sheet_deferred_document_pressed_subtitle">@string/generic_bottom_sheet_delete_subtitle</string>
+    <string name="dashboard_bottom_sheet_deferred_document_pressed_primary_button_text">@string/generic_bottom_sheet_delete_primary_button_text</string>
+    <string name="dashboard_bottom_sheet_deferred_document_pressed_secondary_button_text">@string/generic_bottom_sheet_delete_secondary_button_text</string>
+
+    <string name="dashboard_bottom_sheet_deferred_documents_ready_title">Dokumentumok kiállítva</string>
+    <string name="dashboard_bottom_sheet_deferred_documents_ready_subtitle">Új dokumentumok kerültek a tárcájába.</string>
+
+    <string name="dashboard_bottom_sheet_revoked_document_dialog_title">Visszavont dokumentumok</string>
+    <string name="dashboard_bottom_sheet_revoked_document_dialog_subtitle">A következő dokumentumok visszavonásra kerültek.</string>
+    <!--endregion-->
+
+    <string name="dashboard_side_menu_title">Tárcám</string>
+
+    <string name="dashboard_side_menu_option_change_pin">PIN módosítása</string>
+
+    <string name="dashboard_side_menu_option_settings">Beállítások</string>
+
+    <!-- region Settings Screen -->
+    <string name="settings_screen_title">Beállítások</string>
+    <string name="settings_screen_option_biometrics_authentication">Hitelesítés biometrikus adatokkal</string>
+    <string name="settings_screen_option_show_batch_issuance_counter">Tömeges kiállítási számláló</string>
+    <string name="settings_screen_option_retrieve_logs">Naplók lekérése</string>
+    <string name="settings_screen_option_changelog">Változásnapló</string>
+    <string name="settings_intent_chooser_logs_share_title">Naplók megosztása</string>
+    <!--endregion-->
+
+    <!-- region Home Screen -->
+    <string name="home_screen_title">Kezdőlap</string>
+    <string name="home_screen_welcome">Üdvözöljük</string>
+    <string name="home_screen_welcome_user_message">Üdvözöljük a Tárcámban, %1$s</string>
+    <string name="home_screen_authentication_card_title">Biztonságosan igazolhatja személyazonosságát és megoszthatja digitális hitelesítő adatait.</string>
+    <string name="home_screen_sign_card_title">Digitális dokumentumok elektronikus aláírása a tárcájával, eszközéről választott fájl segítségével.</string>
+    <string name="home_screen_authenticate">Hitelesítés</string>
+    <string name="home_screen_authenticate_description">Hitelesítés adatainak megosztásával személyesen (közvetlen közelben) vagy online (weboldal/szolgáltatás).</string>
+    <string name="home_screen_sign">Aláírás</string>
+    <string name="home_screen_learn_more">További információ</string>
+    <string name="home_screen_authenticate_option_in_person">Személyesen</string>
+    <string name="home_screen_add_document_option_online">Online</string>
+
+    <string name="home_screen_sign_document">Dokumentum aláírása</string>
+    <string name="home_screen_sign_document_description">Dokumentum digitális aláírása eszközéről választott fájl vagy QR-kód beolvasása segítségével.</string>
+    <string name="home_screen_sign_document_option_from_device">Eszközről</string>
+    <string name="home_screen_sign_document_option_scan_qr">QR beolvasása</string>
+    <!--endregion-->
+
+    <!-- region Home Screen Learn More Popups content -->
+    <string name="home_screen_authenticate_learn_more_inner_title">Dokumentumok biztonságos aláírása</string>
+    <string name="home_screen_authenticate_learn_more_description">Írja alá dokumentumait csupán a tárcájával. A jogilag kötelező érvényű e-aláírás gyorsabb és egyszerűbb lesz, mint valaha, így bármikor elintézheti feladatait.</string>
+    <string name="home_screen_sign_learn_more_inner_title">Online szolgáltatások elérése</string>
+    <string name="home_screen_sign_learn_more_description">Azonosíthatja magát számos állami és magán online szolgáltatásban, miközben védi adatait. Néhány érintéssel igazolhatja személyazonosságát anélkül, hogy számtalan jelszóval kellene bajlódnia.</string>
+    <!--endregion-->
+
+    <!-- region Documents Screen -->
+    <string name="documents_screen_title">Dokumentumok</string>
+    <string name="documents_screen_search_label">@string/generic_search</string>
+    <string name="documents_screen_search_no_results">Nincs a keresésnek megfelelő dokumentum. Próbálja módosítani a keresési kifejezést vagy a szűrőket.</string>
+    <string name="documents_screen_add_document_title">Dokumentum hozzáadása</string>
+    <string name="documents_screen_add_document_description">Adjon hozzá dokumentumokat a tárcájához listából való választással vagy a megadott QR-kód beolvasásával.</string>
+    <string name="documents_screen_add_document_fab">Dokumentum hozzáadása</string>
+    <string name="documents_screen_add_document_option_list">Listából</string>
+    <string name="documents_screen_add_document_option_qr">@string/generic_scan_qr</string>
+    <string name="documents_screen_add_document_option_or">@string/generic_or</string>
+    <string name="documents_screen_filters_title">@string/generic_filters_title</string>
+    <string name="documents_screen_filters_sort_by">@string/generic_filters_sort_by</string>
+    <string name="documents_screen_filters_sort_default">Alapértelmezett</string>
+    <string name="documents_screen_filters_filter_by_issuer">Kiállító</string>
+    <string name="documents_screen_filters_filter_by_category">Kategória</string>
+    <string name="documents_screen_filters_filter_by_state">Állapot</string>
+    <string name="documents_screen_filters_filter_by_state_revoked">Visszavonva</string>
+    <string name="documents_screen_filters_filter_by_state_valid">Érvényes</string>
+    <string name="documents_screen_filters_filter_by_state_expired">Lejárt</string>
+    <string name="documents_screen_filters_filter_by_expiry_period">Lejárati időszak</string>
+    <string name="documents_screen_filters_filter_by_expiry_period_1">Következő 7 nap</string>
+    <string name="documents_screen_filters_filter_by_expiry_period_2">Következő 30 nap</string>
+    <string name="documents_screen_filters_filter_by_expiry_period_3">30 napnál később</string>
+    <string name="documents_screen_filters_filter_by_expiry_period_4">A mai nap előtt (lejárt)</string>
+    <string name="documents_screen_filters_apply">@string/generic_filters_apply</string>
+    <string name="documents_screen_filters_reset">@string/generic_filters_reset</string>
+    <string name="documents_screen_filters_unknown_issuer">Ismeretlen</string>
+    <!--endregion-->
+
+    <!-- region Transactions Screen -->
+    <string name="transactions_screen_title">Előzmények</string>
+    <string name="transactions_screen_search_label">@string/generic_search</string>
+    <string name="transactions_screen_search_no_results">Nem található tranzakció. Próbálja módosítani a keresési kifejezést vagy a szűrőket.</string>
+    <string name="transactions_screen_0_minutes_ago_message">Épp most</string>
+    <plurals name="transactions_screen_some_minutes_ago_message">
+        <item quantity="one">%d perccel ezelőtt</item>
+        <item quantity="other">%d perccel ezelőtt</item>
+    </plurals>
+    <string name="transactions_screen_text_field_date_pattern">dd/mm/yyyy</string>
+    <!--endregion-->
+
+    <!-- region Transactions Screen, Filter labels-->
+    <string name="transactions_screen_filters_title">@string/generic_filters_title</string>
+    <string name="transactions_screen_filters_sort_by">@string/generic_filters_sort_by</string>
+    <string name="transactions_screen_filters_sort_transaction_date">Tranzakció dátuma</string>
+    <string name="transactions_screen_filter_by_date_period">Dátum</string>
+    <string name="transactions_screen_filter_by_status">Állapot</string>
+    <string name="transactions_screen_filters_filter_by_relying_party">Ellenőrző fél</string>
+    <string name="transactions_screen_filters_filter_by_transaction_type">Tranzakció típusa</string>
+    <string name="transactions_screen_filters_filter_by_transaction_type_presentation">Bemutatás</string>
+    <string name="transactions_screen_filters_filter_by_transaction_type_issuance">Kiállítás</string>
+    <string name="transactions_screen_filters_filter_by_transaction_type_signing">Aláírás</string>
+    <string name="transactions_screen_filters_date_from">Dátumtól</string>
+    <string name="transactions_screen_filters_date_to">Dátumig</string>
+    <string name="transactions_filter_item_status_completed">Befejezve</string>
+    <string name="transactions_filter_item_status_failed">Sikertelen</string>
+    <string name="transactions_filter_item_no_relying_party_transactions">Nincs ellenőrző fél</string>
+    <string name="transactions_screen_filters_apply">@string/generic_filters_apply</string>
+    <string name="transactions_screen_filters_reset">@string/generic_filters_reset</string>
+    <!--endregion-->
+
+    <!-- region Document Sign -->
+    <string name="document_sign_title">Dokumentum aláírása</string>
+    <string name="document_sign_subtitle">Válasszon egy dokumentumot eszközéről elektronikus aláíráshoz.</string>
+    <string name="document_sign_select_document">Dokumentum kiválasztása</string>
+    <!--endregion-->
+
+    <!-- region Qr Scan -->
+    <string name="qr_scan_permission_not_granted">Kameraengedély nincs megadva\nNyissa meg az alkalmazás beállításait</string>
+    <string name="qr_scan_informative_text_presentation_flow">Problémája van a QR-kód beolvasásával?\nPróbáljon meg alternatív módszert</string>
+    <string name="qr_scan_informative_text_issuance_flow">Problémája van a QR-kód beolvasásával?\nPróbáljon meg alternatív módszert</string>
+    <string name="qr_scan_informative_text_signature_flow">Problémája van a QR-kód beolvasásával?\nPróbáljon meg alternatív módszert</string>
+    <!--endregion-->
+
+    <!-- region Document Details -->
+    <string name="document_details_boolean_item_true_readable_value">igen</string>
+    <string name="document_details_boolean_item_false_readable_value">nem</string>
+
+    <string name="document_details_bottom_sheet_delete_title">@string/generic_bottom_sheet_delete_title</string>
+    <string name="document_details_bottom_sheet_delete_subtitle">@string/generic_bottom_sheet_delete_subtitle</string>
+    <string name="document_details_bottom_sheet_delete_primary_button_text">@string/generic_bottom_sheet_delete_primary_button_text</string>
+    <string name="document_details_bottom_sheet_delete_secondary_button_text">@string/generic_bottom_sheet_delete_secondary_button_text</string>
+
+    <string name="document_details_toolbar_action_reissue">Újrakiállítás</string>
+    <string name="document_details_toolbar_action_remove">Eltávolítás</string>
+
+    <string name="document_details_document_credentials_info_text">Fennmaradó példányok: %d/%d</string>
+    <string name="document_details_main_section_text">DOKUMENTUM ADATAI</string>
+    <string name="document_details_issuer_section_text">KIÁLLÍTÓ ADATAI</string>
+    <string name="document_details_issuer_card_expires_on_text">Lejár:\ %1$s</string>
+    <string name="document_details_issuer_card_revoked_text">Dokumentum visszavonva</string>
+    <string name="document_details_issuer_card_issued_on_text">Kiállítva:\ %1$s</string>
+    <string name="document_details_issuer_card_issued_message_text">Ezt a dokumentumot bármikor újrakiállíthatja.</string>
+    <string name="document_details_issuer_card_issued_action_btn_text">Dokumentum újrakiállítása</string>
+    <string name="document_details_issuer_card_revoked_message_text">Ez a dokumentum nem használható ellenőrzéshez.</string>
+    <string name="document_details_secondary_button_text">Eltávolítás a tárcából</string>
+
+    <string name="document_details_bottom_sheet_bookmark_info_title">Mentve a kedvencekbe</string>
+    <string name="document_details_bottom_sheet_bookmark_info_message">A dokumentum sikeresen hozzáadásra került a kedvencek listájához.</string>
+    <string name="document_details_bottom_sheet_bookmark_removed_info_title">Eltávolítva a kedvencekből</string>
+    <string name="document_details_bottom_sheet_bookmark_removed_info_message">A dokumentum sikeresen eltávolításra került a kedvencek listájából.</string>
+
+    <string name="document_details_bottom_sheet_badge_title">Megbízható ellenőrző fél</string>
+    <string name="document_details_bottom_sheet_badge_subtitle">Egy ellenőrző fél akkor minősül megbízhatónak, ha megfelel
+        az előre meghatározott biztonsági, adatvédelmi, megfelelőségi és felelős adatkezelési kritériumoknak.</string>
+    <!--endregion-->
+
+    <!-- region Transaction Details -->
+    <string name="transaction_details_screen_title">Tranzakció adatai</string>
+    <string name="transaction_details_screen_card_date_label">Dátum</string>
+    <string name="transaction_details_request_deletion_message">Kérheti a tranzakcióhoz kapcsolódó személyes adatok feldolgozásának leállítását. Ez hatással lehet a szolgáltatások elérésére.</string>
+    <string name="transaction_details_report_transaction_message">Ha úgy gondolja, hogy ez az ellenőrző fél jogellenesen kért személyes adatokat, jelentheti ezt a tranzakciót a hatóságoknak.</string>
+    <string name="transaction_details_request_deletion_button">Adattörlés kérése</string>
+    <string name="transaction_details_report_transaction_button">Gyanús tranzakció jelentése</string>
+    <string name="transaction_details_data_shared_section_title">MEGOSZTOTT ADATOK</string>
+    <string name="transaction_details_data_signed_section_title">ALÁÍRT ADATOK</string>
+    <string name="transaction_details_collapsed_supporting_text">@string/generic_view_details</string>
+    <!--endregion-->
+
+    <!-- region Proximity QR -->
+    <string name="proximity_qr_title">Személyazonosságom hitelesítése</string>
+    <string name="proximity_qr_subtitle">Mutassa meg ezt a QR-kódot egy közeli partnernek személyazonossága hitelesítéséhez.</string>
+    <string name="proximity_qr_use_nfc">Csatlakozás NFC-n keresztül</string>
+    <string name="proximity_qr_hold_near_reader">Tartsa telefonját az olvasó közelébe a beolvasáshoz.</string>
+    <!--endregion-->
+
+    <!-- region Presentation Qr Scan -->
+    <string name="presentation_qr_scan_title">Személyazonosságom hitelesítése</string>
+    <string name="presentation_qr_scan_subtitle">Olvassa be egy partner által megadott QR-kódot személyazonossága hitelesítéséhez.</string>
+    <!--endregion-->
+
+    <!-- region Signature Qr Scan -->
+    <string name="signature_qr_scan_title">Dokumentum aláírása</string>
+    <string name="signature_qr_scan_subtitle">Olvasson be egy QR-kódot dokumentum elektronikus aláírásához.</string>
+    <!--endregion-->
+
+    <!-- region Issuance Add Document Screen -->
+    <string name="issuance_add_document_title">Dokumentum hozzáadása listából</string>
+    <string name="issuance_add_document_subtitle">Válasszon egy digitális dokumentumot az alábbi listából a tárcájához való hozzáadáshoz. További dokumentumokat adhat hozzá a felhatalmazott kiállító szolgáltatás által megadott QR-kód beolvasásával.</string>
+    <string name="issuance_add_document_no_options">Nincs elérhető dokumentum</string>
+    <string name="issuance_add_document_deferred_success_text">@string/generic_deferred_success_text</string>
+    <string name="issuance_add_document_deferred_success_description">Dokumentuma igénylésre került. Értesítést kap, amikor kiállításra kerül a tárcájába.</string>
+    <string name="issuance_add_document_deferred_success_primary_button_text">@string/generic_ok</string>
+    <string name="issuance_add_document_pid_combined">PID Combined</string>
+    <!--endregion-->
+
+    <!-- region Issuance Success Screen -->
+    <string name="issuance_success_header_description">Sikeresen hozzáadta a következőt a tárcájához</string>
+    <string name="issuance_success_header_description_when_error">Sikeresen hozzáadta a dokumentum(oka)t a tárcájához</string>
+    <string name="issuance_success_header_issuer_default_name">@string/generic_default_issuer_name</string>
+    <!--endregion-->
+
+    <!-- region Issuance Qr Scan -->
+    <string name="issuance_qr_scan_title">Dokumentum hozzáadása QR-ből</string>
+    <string name="issuance_qr_scan_subtitle">Olvasson be egy kiállító által megadott QR-kódot digitális dokumentum tárcájához való hozzáadásához.</string>
+    <!--endregion-->
+
+    <!-- region Issuance Document Offer -->
+    <string name="issuance_document_offer_primary_button_text_add">Hozzáadás</string>
+    <string name="issuance_document_offer_deferred_success_text">@string/generic_deferred_success_text</string>
+    <string name="issuance_document_offer_deferred_success_description">A(z) %1$s dokumentumai igénylésre kerültek. Értesítést kap, amikor kiállításra kerülnek a tárcájába.</string>
+    <string name="issuance_document_offer_deferred_success_primary_button_text">@string/generic_ok</string>
+    <string name="issuance_document_offer_error_missing_pid_text">A tárcát először nemzeti azonosítóval kell aktiválni</string>
+    <string name="issuance_document_offer_error_invalid_txcode_format">Érvénytelen tranzakciós kód formátum. A hossz %1$d és %2$d számjegy között kell legyen, és csak numerikus karakterek engedélyezettek.</string>
+    <string name="issuance_document_offer_error_no_document">Nem sikerült lekérni és feldolgozni a hitelesítő adat ajánlatot</string>
+
+    <string name="issuance_document_offer_description">A következő tranzakció az Ön engedélyét és hitelesítését igényli.</string>
+    <string name="issuance_document_offer_header_main_text">KIÁLLÍTÁSI KÉRELEM</string>
+    <string name="issuance_document_offer_relying_party_default_name">@string/generic_default_issuer_name</string>
+    <string name="issuance_document_offer_relying_party_description">a következőket szeretné hozzáadni</string>
+    <!--endregion-->
+
+    <!-- region Issuance Document Offer Code -->
+    <string name="issuance_code_title">A(z) %1$s ellenőrzést igényel</string>
+    <string name="issuance_code_caption">Adja meg a kapott %1$d számjegyű tranzakciós kódot.</string>
+    <!--endregion-->
+
+    <!-- region Issuance Document Errors -->
+    <string name="issuance_generic_error">Hiba történt a dokumentum(ok) kiállításakor</string>
+    <!--endregion-->
+
+    <!-- region Document Categories -->
+    <string name="document_category_government">KORMÁNYZAT</string>
+    <string name="document_category_travel">UTAZÁS</string>
+    <string name="document_category_finance">PÉNZÜGY</string>
+    <string name="document_category_education">OKTATÁS</string>
+    <string name="document_category_health">EGÉSZSÉGÜGY</string>
+    <string name="document_category_social_security">TÁRSADALOMBIZTOSÍTÁS</string>
+    <string name="document_category_retail">KISKERESKEDELEM</string>
+    <string name="document_category_other">EGYÉB</string>
+    <!--endregion-->
+
+    <!-- region Transaction Categories -->
+    <string name="transaction_category_today">MA</string>
+    <string name="transaction_category_this_week">E HÉTEN</string>
+    <string name="transaction_category_month_year">HÓNAP</string>
+    <!--endregion-->
+
+</resources>
