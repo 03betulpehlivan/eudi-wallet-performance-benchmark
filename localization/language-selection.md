@@ -187,6 +187,7 @@ The main implementation is distributed across the following files:
 | `values-ar/strings.xml` | Arabic resources |
 
 ---
+---
 
 ## Application Evidence
 
@@ -199,6 +200,13 @@ The Settings screen provides a **Select Language** dialog containing the four su
 - Magyar
 - العربية
 
-A screenshot of the language selection interface is included below.
+### Language Selection
+![Language Selection](language-selection.png)
 
-![Language Selection](screenshots/language-selection.png)
+![Hungarian Localization](hungarian-localized-wallet.png)
+
+![Turkish Localization](turkish-localized-wallet.png)
+
+![Arabic Localization](arabic-localized-wallet.png)
+
+These screenshots provide visual evidence of the implemented language selection feature and the added localized resources.
