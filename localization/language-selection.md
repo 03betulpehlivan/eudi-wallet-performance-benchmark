@@ -201,12 +201,16 @@ The Settings screen provides a **Select Language** dialog containing the four su
 - العربية
 
 ### Language Selection
-![Language Selection](language-selection.png)
+<div align="center">
 
-![Hungarian Localization](hungarian-localized-wallet.png)
+<img src="language-selection.png" alt="Language Selection" width="180">
+<img src="hungarian-localized-wallet.png" alt="Hungarian Localization" width="180">
 
-![Turkish Localization](turkish-localized-wallet.png)
+<br>
 
-![Arabic Localization](arabic-localized-wallet.png)
+<img src="turkish-localized-wallet.png" alt="Turkish Localization" width="180">
+<img src="arabic-localized-wallet.png" alt="Arabic Localization" width="180">
+
+</div>
 
 These screenshots provide visual evidence of the implemented language selection feature and the added localized resources.
